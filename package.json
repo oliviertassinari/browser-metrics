@@ -1,0 +1,51 @@
+{
+  "name": "browser-metrics",
+  "version": "0.1.1",
+  "description": "A collection of metrics tools for measuring performance",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint . && echo \"eslint: no lint errors\"",
+    "build": "rm -rf lib && mkdir lib && babel src --out-dir lib",
+    "flow": "flow",
+    "test": "npm run lint && npm run flow",
+    "prepublish": "npm run build && pkgfiles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviertassinari/pwa-metrics.git"
+  },
+  "keywords": [
+    "metrics",
+    "pwa",
+    "performance",
+    "browser",
+    "redux"
+  ],
+  "author": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliviertassinari/pwa-metrics/issues"
+  },
+  "homepage": "https://github.com/oliviertassinari/pwa-metrics#readme",
+  "dependencies": {
+    "warning": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-dev-warning": "^0.1.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "eslint": "^3.11.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-react": "^6.7.1",
+    "flow-bin": "^0.36.0",
+    "pkgfiles": "^2.3.0"
+  }
+}
