@@ -35,6 +35,10 @@ This is the time elapsed between the beginning of the navigation and the call to
 
 It takes advantage of the `performance.timing` [model](https://www.w3.org/TR/navigation-timing/#processing-model).
 
+### Example
+
+![load](docs/load.png)
+
 ### Usage
 
 ```js
@@ -139,6 +143,10 @@ This is a [redux middleware](http://redux.js.org/docs/advanced/Middleware.html).
 Redux has a nice design property, actions are performed synchronously in a transaction. That allow us to measure the time spent in each action.
 
 When used with [react-redux](https://github.com/reactjs/react-redux) and the current *react-dom* reconciliation algorithm the time also take into account the `render` calls down the virtual DOM tree.
+
+### Example
+
+![redux](docs/redux.png)
 
 ### Usage
 
