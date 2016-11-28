@@ -39,8 +39,8 @@ It takes advantage of the `performance.timing` [model](https://www.w3.org/TR/nav
 
 ![load](docs/load.png)
 
-Notices that research only show meaningful effect, at the product level, for the *time to interaction effect*.
-Until research shows otherwise, you should probably consider the other metrics as simple technical indicators.
+Notices that research only show meaningful effect, at the product level, for the **time to interaction** metric.
+Until research shows otherwise, you should consider the other metrics as simple technical indicators.
 *[source](https://twitter.com/slightlylate/status/803187908110876672)*
 
 ### Usage
@@ -201,8 +201,8 @@ Then, you can see the values in the UI.
 
 ![Google Analytics](docs/analytics.png)
 
-Notices the you shouldn't be using the mean as a performance indicator.
-Using the mediam (50th percentile) would be a much better indicator.
+Notices the you **shouldn't** be using the mean as a performance indicator.
+Using the **mediam** (50th percentile) would be a much better indicator.
 
 ## Ressources
 

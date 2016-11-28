@@ -1,5 +1,12 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
+/**
+ * This is highly inspired by
+ *  - https://github.com/addyosmani/timing.js/blob/master/timing.js
+ *  - https://gist.github.com/acdha/a1fd7e91f8cd5c1f6916
+ *  - https://github.com/okor/justice/blob/master/src/js/justice.collectors.js
+ */
+
 function supportsPerfNow() {
   return window.performance && window.performance.now;
 }

@@ -13,6 +13,11 @@ function supportsPerfMark() {
   return self.performance && self.performance.mark;
 }
 
+/**
+ * This class is higly inspired by
+ *  - https://github.com/ebidel/appmetrics.js
+ * But customized for my needs.
+ */
 class Metric {
   /**
    * Returns the duration of the timing metric or -1 if there a measurement has
