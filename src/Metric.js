@@ -6,11 +6,11 @@ const start = new WeakMap();
 const end = new WeakMap();
 
 function supportsPerfNow() {
-  return self.performance && self.performance.now;
+  return typeof self !== 'undefined' && self.performance && self.performance.now;
 }
 
 function supportsPerfMark() {
-  return self.performance && self.performance.mark;
+  return typeof self !== 'undefined' && self.performance && self.performance.mark;
 }
 
 /**
