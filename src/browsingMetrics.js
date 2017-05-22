@@ -8,14 +8,14 @@
  */
 
 function supportsPerfNow() {
-  return window.performance && window.performance.now;
+  return typeof self !== undefined && self.performance && self.performance.now;
 }
 
 function supportsPerfTiming() {
-  if (window.performance && window.performance.timing) {
+  if (typeof self !== undefined && self.performance && self.performance.timing) {
     // IE9 bug where navigationStart will be 0 until after the browser updates the
     // performance.timing data structure.
-    if (window.performance.timing.navigationStart !== 0) {
+    if (self.performance.timing.navigationStart !== 0) {
       return true;
     }
   }
