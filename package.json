@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oliviertassinari/pwa-metrics.git"
+    "url": "git+https://github.com/oliviertassinari/browser-metrics.git"
   },
   "keywords": [
     "metrics",
@@ -27,9 +27,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oliviertassinari/pwa-metrics/issues"
+    "url": "https://github.com/oliviertassinari/browser-metrics/issues"
   },
-  "homepage": "https://github.com/oliviertassinari/pwa-metrics#readme",
+  "homepage": "https://github.com/oliviertassinari/browser-metrics#readme",
   "dependencies": {
     "warning": "^3.0.0"
   },
