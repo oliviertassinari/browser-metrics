@@ -1,6 +1,6 @@
 {
   "name": "browser-metrics",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A collection of metrics tools for measuring performance",
   "main": "lib/index.js",
   "scripts": {
